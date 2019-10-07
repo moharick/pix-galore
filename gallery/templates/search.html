@@ -19,12 +19,8 @@
                     {% endfor %}
                 </p>
             </div>
-
-            <!-- Modal -->
             <div id="{{image.id}}" class="modal fade" role="dialog">
                 <div class="modal-dialog image">
-
-                    <!-- Modal content-->
                     <div class="modal-content ">
                         <div class="modal-header">
                             <h4 class="modal-title">{{image.title}}</h4>
@@ -40,15 +36,10 @@
                                 style="border: 0.5px solid #d3d3d3;">Close</button>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-            <!-- Modal -->
             <div id="{{image.id}}-info" class="modal fade" role="dialog">
                 <div class="modal-dialog">
-
-                    <!-- Modal content-->
                     <div class="modal-content ">
                         <div class="modal-header">
                             <h4 class="modal-title">{{image.title}} Caption</h4>
@@ -58,8 +49,8 @@
                             <p>{{image.description}}</p>
                         </div>
                         <div class="modal-footer">
-                            <input class="form-control input-lg" type="text"
-                                value="{{image.image_url.url}}" id="{{image.id}}-url">
+                            <input class="form-control input-lg" type="text" value="{{image.image_url.url}}"
+                                id="{{image.id}}-url">
                             <button class="btn btn-primary" onclick="copyToClipboard('{{image.id}}-url')">Copy</button>
                         </div>
                     </div>
