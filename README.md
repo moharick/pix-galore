@@ -18,7 +18,7 @@ Pix-galore is a picture gallery made with django application that allows users d
 Clone the the repository by running
 
    ```bash
-   git clone https://github.com/kamauvick/pix-galore.git
+   git clone https://github.com/moharick/pix-galore.git
    ```
  or download a zip file of the project from github
 
@@ -75,7 +75,7 @@ python manage.py makemigrations gallery
 then run the command below;
 
  ```bash
- python3 manage.py migrate
+ python manage.py migrate
  ```
 
 ##### 6.Run the app
@@ -86,7 +86,7 @@ To run the application on your development machine,
 ### Running Tests
 >To run tests;
 
-    python3 manage.py test
+    python manage.py test
 
 ## Technologies Used
 * Django
