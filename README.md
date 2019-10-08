@@ -1,5 +1,5 @@
 # Pix-galore
-[![BCH compliance](https://bettercodehub.com/edge/badge/moharick/pix-galore?branch=master)](https://bettercodehub.com/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/moharick/Github-search?branch=master)](https://bettercodehub.com/)
 ## Description
 Pix-galore is a picture gallery made with django application that allows users display their photos for others to see.
 
